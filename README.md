@@ -20,12 +20,10 @@
 - [🎯 Business Objectives](#-business-objectives)
 - [🛠️ Tools & Technologies](#️-tools--technologies)
 - [📂 Repository Contents](#-repository-contents)
-- [🔄 Project Workflow](#-project-workflow)
 - [🧹 Data Preparation](#-data-preparation)
 - [⚙️ Feature Engineering](#️-feature-engineering)
 - [🔍 Exploratory Data Analysis](#-exploratory-data-analysis)
 - [💡 Key Findings](#-key-findings)
-- [💰 Retention Budget Simulation](#-retention-budget-simulation)
 - [📈 Power BI Dashboard](#-power-bi-dashboard)
 - [🚀 Recommendations](#-recommendations)
 - [⚠️ Limitations](#️-limitations)
@@ -90,22 +88,6 @@ The analysis is conducted using **Python in Google Colab**, while **Power BI** i
 | `Status_Analysis.csv` | 👥 Customer status and churn information |
 | `new_status_analysis2 (1).csv` | 📄 Additional dataset included in the project |
 | `README.md` | 📘 Project documentation |
-
-## 🔄 Project Workflow
-
-```mermaid
-flowchart TD
-    A["📂 Data Sources"] --> B["☁️ Load Data in Google Colab"]
-    B --> C["🧹 Data Cleaning"]
-    C --> D["🔗 Merge Datasets using customer_id"]
-    D --> E["🔍 Exploratory Data Analysis"]
-    E --> F["⚙️ Feature Engineering"]
-    F --> G["🎯 Customer Segmentation"]
-    G --> H["💰 Financial Exposure Analysis"]
-    H --> I["🧠 Retention Strategy & Budget Simulation"]
-    I --> J["📊 Power BI Dashboard"]
-    J --> K["🚀 Business Recommendations"]
-```
 
 ## 🧹 Data Preparation
 
@@ -258,28 +240,6 @@ Among high-value customers with tenure of 12 months or less:
 | 📌 Other | 200 |
 
 Competitor-related reasons represent the largest category in the analyzed data.
-
-## 💰 Retention Budget Simulation
-
-The budget simulation focuses on **839 active Priority 1 customers**, using a budget cap equivalent to 10% of CLTV.
-
-### 💵 Budget Overview
-
-| Budget Metric | Value |
-|---|---:|
-| Target Customers | **839** |
-| Total Budget Cap | **$456,757.20** |
-| Average Budget Cap per Customer | **$544.41** |
-| Budget Assumption | 10% of CLTV |
-
-### 🧩 Proposed Strategy Allocation
-
-| Retention Strategy | Customers | Allocation |
-|---|---:|---:|
-| 💚 Loyalty Programs and Regular Monitoring | 614 | 73.18% |
-| 📄 Annual Contract Offers with Measured Incentives | 225 | 26.82% |
-
-The proposed allocation provides a starting point for targeted retention activities. Actual spending should be validated against program costs and measured retention outcomes.
 
 ## 📈 Power BI Dashboard
 
